@@ -1,2 +1,2 @@
 # python
-begining
+open file for notes
