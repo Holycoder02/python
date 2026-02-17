@@ -1,0 +1,33 @@
+multiple times repeat
+
+1- while loop // run till condition is True
+
+2- for loop //sequence data type
+
+--------------------------------------------------------
+
+
+while loop
+True
+
+while condition:
+#code execute
+
+
+============================
+
+
+For loop
+[1,2,3,4,5,]
+5times
+
+
+list tuple dicitionary string
+
+for variable in sequence:
+#code execute
+
+
+for a in list:
+
+

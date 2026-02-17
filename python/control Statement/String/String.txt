@@ -1,0 +1,79 @@
+String and characters
+
+characters
+num
+a-z A-Z !@#$%
+white space
+" "
+
+
+
+String
+single quotes - 'python'
+double - "Python"
+triple quotes- 
+
+'''
+this is a '
+multi line
+'''
+
+"""
+this is also 
+multi line
+"""
+
+3 characterstics
+
+1 - itrable
+
+2- immutable
+
+3 - indexed
++ve / -ve
+
+=========================
+Real life example
+greet messg pop up
+s
+
+str = input ('enter your name').upper()// #this is for changing font upper class
+or lowerclass
+
+
+capitalize
+str = input ('enter you name').capitlized()
+#in thhis case the first letter will become in upper case
+
+//
+str = input('enter your name: ').capitalize()
+print('hi', str)
+
+
+str = input('enter a sentence: ').title()
+print(str)
+ enter a sentence: are we good
+Are We Good
+
+#search in string
+#find(sub)
+
+text = "python programming"
+print(text.find('i'))  #find() is used to find the index of the first occurrence of the specified substring in the string. If the substring is not found, it returns -1.'))
+
+#replace 
+
+text = "python programming"
+print(text.replace('python', 'java'))  #replace() is used to replace all occurrences of a specified substring with another substring in the string. It returns a new string with the replacements made.
+
+
+
+text = "you, are, learning, python"
+print(text.split(','))  #split() is used to split a string into a list of substrings based on a specified delimiter. It returns a list of substrings. If no delimiter is specified, it splits the string by whitespace.
+
+
+#join(iterable)
+
+result = ", ".join(['python', 'programming', 'is', 'fun'])  #join() is used to join the elements of an iterable (such as a list) into a single string, with a specified separator between the elements. It returns a new string that is the concatenation of the elements in the iterable, separated by the specified separator.
+print(result)
+
