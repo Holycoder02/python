@@ -40,6 +40,8 @@ s
 str = input ('enter your name').upper()// #this is for changing font upper class
 or lowerclass
 
+======================================================
+
 
 capitalize
 str = input ('enter you name').capitlized()
@@ -55,11 +57,17 @@ print(str)
  enter a sentence: are we good
 Are We Good
 
+
+=================================================
+
 #search in string
 #find(sub)
 
 text = "python programming"
 print(text.find('i'))  #find() is used to find the index of the first occurrence of the specified substring in the string. If the substring is not found, it returns -1.'))
+
+
+===========================================================
 
 #replace 
 
@@ -72,8 +80,32 @@ text = "you, are, learning, python"
 print(text.split(','))  #split() is used to split a string into a list of substrings based on a specified delimiter. It returns a list of substrings. If no delimiter is specified, it splits the string by whitespace.
 
 
+===================================================================
+
 #join(iterable)
 
 result = ", ".join(['python', 'programming', 'is', 'fun'])  #join() is used to join the elements of an iterable (such as a list) into a single string, with a specified separator between the elements. It returns a new string that is the concatenation of the elements in the iterable, separated by the specified separator.
 print(result)
+=========================================
 
+####list
+orderd
+mutable
+dynamic
+hetrogeneous
+
+
+#1 square brakets
+my_list = [1, 2, 3, 4, 5, "hello", "paython", 3.14, True]
+print(my_list)
+
+#2 list() constructor
+my_list = list((1, 2, 3, 4, 5, "hello", "paython", 3.14, True))
+print(my_list)
+
+
+#list comperehension constructing a list from an iterable
+squares = [x**2 for x in range(1, 11)]
+print(squares)
+
+================================================================

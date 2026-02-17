@@ -20,7 +20,7 @@ print(str[-1]) #str[-1] is used to access the last character of the string
 #slicing 
 #python
 
-#string[start:stop:step]
+# string }
 #start = 0
 #stop = 4
 #step = 1 2 3 
