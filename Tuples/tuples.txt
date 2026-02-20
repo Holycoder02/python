@@ -1,0 +1,21 @@
+1- immutable
+2- hoterogeneous meaning you use this to store multiple data types
+
+3- list []
+tuple ()
+
+
+methods you can use in this 
+
+len()
+min max
+count()
+index ()
+sorted()
+
+use tuples where whatever data can not be change...like bank acc
+age date of bitrhday
+
+
+use list where data can be change often 
+name email
