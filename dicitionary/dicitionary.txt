@@ -1,0 +1,62 @@
+1 paython dictionary
+ Definition & characteristics
+ key-value pairs
+ inordered (before python 3.7)
+ mutable
+
+2- Creation 
+ using { } braces
+ using dict {} consturctor
+
+3- Operations
+ Adding iteams
+ Updating iteams
+ Deleting iteams
+
+4- Dicitionary Method 
+ get(), keys(), values(), items()
+  pop(), popotem(), clear()
+
+5- comrehensionsions 
+ Dicitionary comrehensionsions
+ 
+6- Nested Dictionaries
+7- Common use Cases
+
+
+roll number - 01, 02, 03, 
+01 -> name, class, sub ject 
+
+pairs
+1 pair -> key:value
+
+pair = (apple : meaning)
+
+1- key- value = pair, comma
+2- Ordered now befor 3.7 its was unordered
+3- mutable
+4- Dynamic
+
+for udates
+my_dict = {
+    'name':'python', 'version':'3.9'
+}
+my_dict['version'] = 4.1
+print(my_dict)
+
+
+
+if you run this you get a simple ending with update version so alywas be careful
+for instance if we make simple changes 
+like 
+my_dict = {
+    'name':'python', 'version':'3.9'
+}
+my_dict['updated_version'] = 4.1
+print(my_dict)
+
+
+the endingwelll be like updated version 4.1
+
+create a small project contact manger
+
