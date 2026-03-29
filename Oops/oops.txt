@@ -1,0 +1,156 @@
+the example in pr.py is the usually way of example we goona how 
+can we use oops in make it simple to understand and define
+
+because we can use real life example as object it's very intersting topic 
+
+
+warrior_name = "Thor"
+warrior_health = 100
+warrior_attack = 50
+
+mage_name = "Gandalf"
+mage_health = 100
+mage_attack = 70
+
+def attack_warrior():
+    print(f'warrior attack wirh power',)
+
+def attack_mage():
+    print(f'Mage attack with power',)
+
+attack_warrior()
+attack_mage()
+  
+
+  teredinational way the oops version
+
+  oops version
+  class Character:
+    def __init__(self, name, health, attack):
+        self.name = name
+        self.health = health
+        self.attack = attack
+
+    def attack_enemy(self):
+        print(f'{self.name} attacks with power {self.attack}')
+
+warrior = Character("Thor", 100, 50)
+mage = Character("Gandalf", 100, 70)
+
+
+warrior.attack_enemy()
+mage.attack_enemy()
+
+
+the benifit is that to add a another logic or a new Character...it makes it easier..
+to make easy to modifiy the program in future.. 
+where the actions properties are matching to real life which makes it easier to program 
+object based programming is the best choises ,
+it also provides squrity because you can only asseccs data what you need 
+Better organsition 
+
+easy maintances like you can easily make a parameters changes or add a parameters
+
+
+oops keeps the structure or i may say using oops you can give structure a code 
+
+make easier to structure a group data 
+helps define the properties
+
+'''
+1 - classes & objects
+2 - inheritance
+3 - encapsulation
+4 - polymorphism
+5 - abstraction
+'''
+
+thing we gona learns
+1 - class is a blueprint or template for creating objects
+
+
+map - class
+house - object 
+
+object are the instance of a class
+
+class = car blueprint
+object = actual car 
+to define the instace let's see the example
+
+class car():
+    #method
+    def start(self):
+        print('car is starting....')
+
+    def stop(self):
+        print('car is stopping....')
+    
+car1 = car()
+car2 = car()
+
+car1.start()
+car1.stop()
+
+car2.start()
+car2.stop()
+
+
+now lets add some properties
+
+class Car():
+    def set_details(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+    def show_details(self):
+        print(f'car brand is a {self.color} {self.brand}')
+
+car1 = Car()
+car1.set_details('red', 'Toyota')
+
+car2 = Car()
+car2.set_details('blue', 'Honda')
+
+car1.show_details()
+car2.show_details()
+              
+=========================================================
+self in python 
+
+name roll number grade 
+program software
+
+95
+90
+
+update marks  this repose will fale because we have to decribe the specifiyng student and marks
+
+udit > 95
+
+when do we need self 
+
+class Student:
+
+def set_details(name, age):
+name = name
+age = age
+
+student1 = student()
+Student1.set_details('udit',95)
+
+print (student)
+
+it will give you a 2 positional arugements error or somthing 
+it will not work there is no value store and python doesn't know the name age 
+
+
+if we just 
+self set_details(self, name, age):
+self.name = name
+self.age = age
+
+
+knoe the python knows the name and age 
+
+this is the simple demonstration and working of SELF

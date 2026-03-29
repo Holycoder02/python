@@ -22,5 +22,5 @@ def greet(name, city):
     print(f'welcome {name} from {city}')
 
 
-    greet("raju", "delhi")  #positional arugemnet
+    greet(name="raju", city="delhi")  #positional arugemnet
 

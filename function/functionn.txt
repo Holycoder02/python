@@ -1,0 +1,32 @@
+a = 10 
+b = 20
+print(a+b)
+
+
+a = 30 
+b = 40
+print(a+b)
+
+
+#1 - reusability 
+2 - mmodularity
+3 - Scoping
+
+
+
+parameters - placeholders for the values
+arugements - Sagar
+
+function naming 
+length of functions
+avoid global variables
+
+## decorator.python
+burger - function 
+extra cheese - extra feature 
+
+main function > function add 
+without changing the main function code
+
+#### laambda function are not good with complexity try to keep it simpial as much as possible 
+if you are workindg in the team or in big project
