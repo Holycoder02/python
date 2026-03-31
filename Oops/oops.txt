@@ -154,3 +154,15 @@ self.age = age
 knoe the python knows the name and age 
 
 this is the simple demonstration and working of SELF
+
+def set_details(self, brand, color)
+
+writing this way because always use self to store properties inside a object...
+
+=========================================
+### constructor.py
+it is use to initilaize the object properties...
+
+__init__()
+
+this is how to store oe write or implement the contructor
