@@ -166,3 +166,80 @@ it is use to initilaize the object properties...
 __init__()
 
 this is how to store oe write or implement the contructor
+it is use as soon as object created to initilaize
+
+
+why we neeed constructor?
+without constructor we"ll have to call a method manually and put value to the object...
+to automate this function we use construction
+
+let se a example in construction.py
+
+without class Car:
+    def sset_details(self, brand, color):
+        seld.brand = brand
+        self.color = color
+
+#creating objects
+car1 = Car()
+car1.set_details('Tesla', 'Red')
+
+
+
+print(car1.brand)
+print(car1.color)
+ 
+ a normal way i guess 
+
+ let's see the with contstrrr
+
+
+
+=================================================
+
+Polymorphism
+
+"""
+one name, many forms
+
+run 
+person can run fast
+car runs on petrol
+computer program run smoothly
+
+1 word = run 
+"""
+
+print(len('python'))
+print(len((1,2,3)))
+print(len({"a":1, "b":2, "c":3}))
+
+now let's see it's uses with classes
+
+now let's see how it woks with operators
+
+
+
+=========================================================
+
+# encapsulation 
+
+means that to hide the internal details of a  object 
+or to give a direct asseccs  to internal companent
+
+encapsulation in codding means similar 
+
+let's see a example
+
+further more in inheritance, check the file..
+
+
+to overcome the attribute error...
+
+
+
+=====================================================================
+
+1- 
+
+

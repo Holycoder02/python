@@ -1,0 +1,46 @@
+parent class 
+Method
+
+
+parent class
+    p1 p2                 
+                           ##in this senerio child class is inherting the properties of 
+                           parent class which save time i guess
+child class
+ p3 p4 p2
+
+
+ to reduce the code dublications savees time 
+
+but you can reuse the code or extent the code
+
+
+class Animal:
+   def speak(self):
+   print('Animals make sounds')
+
+class Dog(Animal):    ## but if like writr class Dog()  : it will give us an attribute error
+ def barks(self);
+ print('Dogs bark')   # as we can see how a child class is inherting....
+
+dog = Dog()
+dog.speak()
+dog.bark()
+
+** 
+Data abstraction
+
+to override the eixisting file ..
+or to hide the complex details from the user to reduce the complexcity , so the user can interract properly.
+
+to use the abstraction you'll have to use the abstract class and menthods
+
+let's see the example
+
+=====================================
+
+
+1- poly: one name multiple forms
+2- encap: hiding data and allowing controlled access
+3- inheritance: reuse properties/methods form a parent class
+4- abstraction: hiding unncessary details, 
