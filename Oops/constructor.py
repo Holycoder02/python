@@ -1,7 +1,7 @@
-#example for  not use constructor and use method to initialize the value
+#example of using constructor to initialize the value
 
 '''
-__int__()
+__init__()
 '''
 
 class Car():
@@ -10,7 +10,6 @@ class Car():
         self.color = color
 
 #creating objects
-car1 = Car()
 car1 = Car('tesla', 'red')
 
 print(car1.brand)
