@@ -6,7 +6,7 @@ def check_password_strength(password):
 
 try:
     password = input('enter a password = ')
-    check_password(password)
+    check_password_strength(password)
 except Exception as e:
     print(e)
     

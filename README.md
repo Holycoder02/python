@@ -78,6 +78,7 @@ This repository contains Python learning exercises and examples covering fundame
 ### 6. **File Handling** (`File Handling/`)
 - Reading from files (`1.py`) - using `open()`, `read()`, `close()`
 - Writing to files (`1.py`) - creating and writing data
+- Appending to files (`appendd.py`) - adding content to existing files
 - File modes (`'r'`, `'w'`, `'a'`) - read, write, append
 - Context managers with `with` statement - automatic file closing
 - Error handling for file operations
@@ -107,7 +108,7 @@ This repository contains Python learning exercises and examples covering fundame
 ✅ Object-Oriented Programming (classes, objects, methods, inheritance)  
 ✅ Exception handling and custom exceptions  
 ✅ File handling and I/O operations  
-⏳ More advanced topics...
+✅ **Course Complete!**
 
 ## Notes
 - Each topic folder may contain `.txt` files with notes and documentation

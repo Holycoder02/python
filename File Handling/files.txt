@@ -69,6 +69,16 @@ content = input(enter content to write = ')
 file.write(content)
 print('saved')
 
+***
+check 
+there's a cmnd to check file if a file is there or not 
 
+or that we use
+import os 
+ if os.path.exist(file path.txt):
+  print('Exist')
+else:
+ print('not found')
 
+ to master the file handling built a file manger project you'll understand much more
 
