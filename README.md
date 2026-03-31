@@ -68,13 +68,34 @@ This repository contains Python learning exercises and examples covering fundame
 - Nested dictionaries (`nsted.py`)
 - Parameters and values (`parameters&values.py`)
 
-### 5. **Object-Oriented Programming (OOP)** (`Oops/`)
+### 5. **Exception Handling** (`Exceptions handling/`)
+- Try-except blocks (`app.py`, `app2.py`, `3.py`) - catching and handling errors
+- File handling with exceptions (`app2.py`) - `FileNotFoundError`
+- Nested try-except blocks (`3.py`) - multiple exception types
+- Custom exceptions and validation (`4.py`) - raising exceptions with `raise`
+- Exception notes and documentation
+
+### 6. **File Handling** (`File Handling/`)
+- Reading from files (`1.py`) - using `open()`, `read()`, `close()`
+- Writing to files (`1.py`) - creating and writing data
+- File modes (`'r'`, `'w'`, `'a'`) - read, write, append
+- Context managers with `with` statement - automatic file closing
+- Error handling for file operations
+
+### 7. **Object-Oriented Programming (OOP)** (`Oops/`)
 - **Class basics** (`class.py`) - creating blueprints for objects
 - **Creating objects** (`new.py`) - instances of classes
 - **Self keyword** (`self.py`) - reference to the current object instance
+- **Constructor** (`constructor.py`) - `__init__` method for object initialization
 - **Methods** - functions inside classes
 - **Practice and projects** (`pr.py`)
 - OOP notes and documentation (`oops.txt`)
+
+#### Advanced OOP Concepts (`Oops/Inheritance/`)
+- **Inheritance** (`abs.py`) - inheriting properties from parent classes
+- **Abstract Classes** - using `ABC` and `@abstractmethod` decorator
+- **Polymorphism** (`Polymorphism.py`) - method overriding in child classes
+- **Encapsulation** (`encapsulations.py`) - data hiding and access control
 
 ## Learning Progress
 
@@ -83,7 +104,9 @@ This repository contains Python learning exercises and examples covering fundame
 ✅ String manipulation  
 ✅ Functions, decorators, generators, and lambda functions  
 ✅ Data structures (lists, dictionaries, tuples)  
-✅ Object-Oriented Programming (classes, objects, methods)  
+✅ Object-Oriented Programming (classes, objects, methods, inheritance)  
+✅ Exception handling and custom exceptions  
+✅ File handling and I/O operations  
 ⏳ More advanced topics...
 
 ## Notes

@@ -1,0 +1,74 @@
+file is an coollaction stored data where you can store data, manipulate, data read, write, image 
+that you can access file
+you can store any types of data vedio image song word....
+
+1-  2 primary files types
+   1- text files (.txt, . csv)
+   2- binary files( non text data, png, jpg, pdf, mp3)
+
+now how to open an file in python let;s see the example...
+
+
+
+
+File handling in Python allows you to read, write, and manipulate files on your computer. You can use built-in functions to open files, read their contents, write data to them, and close them when you're done. Here's a basic overview of file handling in Python:
+1. Opening a file: You can use the open() function to open a file. It takes two arguments: the file path and the mode (e.g., 'r' for reading, 'w' for writing, 'a' for appending).
+2. Reading from a file: You can use methods like read(), readline(), or readlines() to read the contents of a file.
+3. Writing to a file: You can use the write() method to write data to a file. If the file doesn't exist, it will be created. If it already exists, it will be overwritten (in 'w' mode) or appended to (in 'a' mode).
+4. Closing a file: It's important to close a file after you're done with it using the
+close() method to free up system resources.
+ 
+
+
+open("file name".txt", "mode")
+
+
+==================================================================================
+
+
+mode          Descritptions                                           createsfile(if not exist)                         overwrittes eixisting Data?
+
+
+'r'        Read mode opens file for reading only.                               NO                                                    NO
+
+'w'        write mode opens a file for writing, if the file                         YES                                             YES
+           exist, it is overwritten.
+
+'a'        Append mode: opens a file for writting, but data                        YES                                               NO
+             is added at the end.
+
+'x'         Exclusive creation mode: Create a file but fails                      YES                                                 NO
+             if it already exist
+
+'r+'        read & write mode: opens a file foe both reading and writing.           NO                                                    YES
+
+'w+'         write & read mode: opens a file for both reading and                   YES                                               YES
+          writting, but it overwites if the file exist.
+
+'a+'         append & READ mode: opens a file for  reading and                    YES                                                        NO
+          appending, preserving exisiting data.
+
+'x+'     Exclusive creation mode: with read and write - create                       yes                                                 no 
+             a new file but fails if it exi
+
+
+
+===============================================================================================
+
+
+with statement 
+useing this we dont have to call colse function in file handelling...
+it close automaticallly cloeses file..
+
+with statement
+with open('file_name','mode') as file name:
+    print(file_name.read)
+
+with open('/user/.................../data.txt', 'w')
+content = input(enter content to write = ')
+file.write(content)
+print('saved')
+
+
+
+

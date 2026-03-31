@@ -14,10 +14,10 @@ class bike(Vehicle):
         print('bike starts with a button')
     
 car = Car()
-bike = bike()  #child class objects
+bike_obj = bike()  #child class objects
 
 car.start() #Output: Car starts with a key
-bike.start() #Output: bike starts with a button
+bike_obj.start() #Output: bike starts with a button
 
 """
 key Takways:

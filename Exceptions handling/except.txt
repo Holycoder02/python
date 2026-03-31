@@ -1,0 +1,106 @@
+what are error
+
+print(2 + 'hi')
+
+
+this is an error in programing because i'm trying to concatinated a 'string' with 'int'
+
+error  can be define as distrabance in flow
+
+in python there are 3 type off error
+
+a- compile-time error
+  
+   if 1==1                    #any error coming in during runing the program is an compile error
+   print('Ok')
+   ther's a syntax error, 
+
+b- runtime errors
+it comes when the program is running...
+  
+  print( 2%0 )
+  error zeroDivisionerror you cannot dived 
+
+  it is in good format following every writen structure..but errors comes when run the program 
+  this is an runtime error
+
+
+c- logical errors
+ when the program is running fine but not giving the desired output
+
+ a = int (input('number 1= '))
+ b = int(input('number 2 = '))
+
+ print('total')
+ print(a+b, 'sum')     #right now no error every thing working
+
+but if the programer mistakely put like:-
+print(a*b, 'sum')
+ this here is an logical error when the program is runned the desired output is not showing..
+
+
+errors in software - bugs
+removing fixing  these error - debugging
+
+============================================================
+
+now how we'll tackle the runn time error suppose 
+if we print( 2%0 )
+and we want to know if its divisiable or not or display some sort of message
+like 
+excepctaion handelling''''
+
+exception -> 
+1- start running
+2- warning string
+3- catch and handle, program crash
+
+
+excepctaion handling ?
+1- zeroDivisionerror
+
+100 line
+10-20 line>error
+organised 
+
++++============================
+
+try - except # blocks
+
+try--  write the code where you think that a an error will occuar
+
+except -- which let you know that theres been error and what to do , like how can you take care of it....
+ so the program will not the crash...
+
+
+
+ how to use it 
+
+ try:
+    # Code that may raise an exception
+   num = int(input('Enter a number: '))
+   result = 10/ num
+   print(f'result: {result}')
+
+except ZeroDivisionError:
+   print('Error: Cannot divide by zero.')
+
+
+
+still there can be a string error if user passes the string to tackle it
+write multiple except
+
+
+**
+Finally block
+it will run always even when exception is raised or not it will run 
+it use for task where you to store file or release the resources...
+
+nested try-except block
+
+
+
+now we'll see an program to check the password strenght with an exception that password must be more than 8 digit
+otherwise give a error message
+
+check :_ 4.py
