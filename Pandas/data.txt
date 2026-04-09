@@ -1,0 +1,14 @@
+why do we need to understand data?
+
+1- understand the data set 
+2- identify the problems
+3- plan next steps
+
+# in this first we'll see to see row data set
+
+#head() tail()
+
+#head() 5
+# tail(n) 5
+# if you don't pass any values then, bydefault it will show the first and last (5) rows of the dataframe
+# only integer values are allowed in head() and tail() functions

@@ -1,0 +1,42 @@
+1- columns, row?
+2- what type of ? , like which type of data
+3- missing data , like which row and columns are missing
+
+# to over come that we use info() methods
+
+ Info() 
+ methods
+
+ 1- number of rows and columns 
+ 2- column name 
+ 3- int64 float64 objects
+ 4- non null counts 
+ 5- memory usage of data
+
+=================================================================
+
+1- select specific column
+2- filter rows
+3- combine multuple conditions
+ 
+ to select a column we use Square brakets[]
+ to filter the rows we use  boolean conditions
+
+
+selecting columns 
+ 1- a series
+ 2- dataframe multiple columns of data
+
+ column =  df["Column Name"]
+ subset = df["Column1", "Column2", "..."]
+
+ filtring rows on conditions
+ boolean indexing
+ 
+ #beased on single condition 
+ filtered_Rows = df[df["column_name] > 50000]
+
+ #combine multiple condition 
+ filtered_Rows = df[(df["Salary"] > 50000) & (df["Column2] < 80000)]
+
+ 
