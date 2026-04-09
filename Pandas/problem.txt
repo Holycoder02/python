@@ -39,4 +39,16 @@ selecting columns
  #combine multiple condition 
  filtered_Rows = df[(df["Salary"] > 50000) & (df["Column2] < 80000)]
 
+
+###############
+
+Operatores 
+
+& opertare will satisfie only one condition
+
+OR operatare is used for multiple condition satifaction like when you use it 
+it will check the data if there a two condition which are begin full filled
+
+if even one condition is macthed it will show on the output
+
  

@@ -1,0 +1,32 @@
+1- NaN (Not a number)
+2- None(for object data types)
+
+
+3- isnull()
+ True - NaN is missing
+ False - value is present
+
+
+ there's also a method to now how many are missing 
+   print(df.isnull().sum())
+
+
+this is to Detecate the missing values 
+
+===============================================
+
+Now to Handle them
+
+# dropna () this method is usually used to like remove or fill the missing 
+it comes handy in handlilng
+
+df.dropna(axis = 1 inplace = True)
+
+ # axis = 0 , means drop rows with missing values
+  axis = 1 , means drop the columns with missing values
+
+  inplace = true , it means that it will give us a modified version on original dataframe
+  inplace = False,  it means it will just create a other data frame whatever condition you are putting on
+
+if the missing value in datafram are frequant then just replace the missing value that way, there a 
+a small chanse that you'll loose your data

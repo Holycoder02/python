@@ -98,13 +98,17 @@ This repository contains Python learning exercises and examples covering fundame
 - **Polymorphism** (`Polymorphism.py`) - method overriding in child classes
 - **Encapsulation** (`encapsulations.py`) - data hiding and access control
 
-### 8. **Pandas (Data Analysis Basics)** (`../Pandas/`)
-- Data manipulation and analysis basics (`about.txt`, `problem.txt`)
-- DataFrame overview (shape, columns, dtypes) (`topic.py`)
+### 8. **Pandas (Data Analysis Basics)** (`Pandas/`)
+- Data manipulation and analysis basics (`about.txt`, `problem.txt`, `data.txt`)
+- DataFrame creation and overview (`topic.py`)
 - Data summary and statistics (`describe.py`)
 - Row filtering and selection (`rows.py`)
+- Selecting columns (`selColumExample.py`)
+- Removing columns (`removColum.py`)
+- Adding data or columns (`adding.py`)
 - Save/export practice (`save.py`)
 - Practice scripts and examples (`app.py`, `problemexmple.py`)
+- Handling missing data (`Handling missing Data/` - `missing.txt`, `missing.py`)
 
 ## Learning Progress
 
@@ -116,7 +120,7 @@ This repository contains Python learning exercises and examples covering fundame
 ✅ Object-Oriented Programming (classes, objects, methods, inheritance)  
 ✅ Exception handling and custom exceptions  
 ✅ File handling and I/O operations  
-🟡 Pandas basics (in progress)  
+🟡 Pandas basics and data analysis (active focus)  
 ✅ **Python Course Complete!**
 
 ## Notes
