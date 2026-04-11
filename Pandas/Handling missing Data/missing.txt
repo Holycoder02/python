@@ -30,3 +30,51 @@ df.dropna(axis = 1 inplace = True)
 
 if the missing value in datafram are frequant then just replace the missing value that way, there a 
 a small chanse that you'll loose your data
+
+
+========================================================================
+
+# fill na ()
+ fillna(value, inplace=True)
+
+  by doing this it may fill the missing values in data fram 
+
+  #df.fillna(0, inplace=True)
+   by using this it will just put zero in the place of missing value
+
+df['Age'] = df['Age'].fillna(df['Age'].mean())
+df['Salary'] = df['Salary'].fillna(df['Salary'].mean())
+df['Performance Score'] = df['Performance Score'].fillna(df['Performance Score'].mean())
+print(df) 
+ 
+ but in this it will fill the missing value with average mean of dataframe
+
+
+
+=====================================================================================================
+
+# Interpolation
+
+in this you can fill the missing value with the estamiadted value.....
+
+1. linear
+
+why use it
+ 1. preserve data integrity
+ 2. smooth trends
+ 3. avoid data loss
+
+interpolate() # method
+
+types of interpolate
+ 1. linear, polynominal, time, Quadratic, cubice, nearest..
+"""
+when to use linear methons
+1- time series data , like stock markets
+2- numeric data with trends 
+3- avoid dropping rows
+
+disadv---
+you can not work with categoral data 
+it assumes the missing data, which might not be corret alywas
+"""

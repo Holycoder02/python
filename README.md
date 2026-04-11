@@ -98,7 +98,7 @@ This repository contains Python learning exercises and examples covering fundame
 - **Polymorphism** (`Polymorphism.py`) - method overriding in child classes
 - **Encapsulation** (`encapsulations.py`) - data hiding and access control
 
-### 8. **Pandas (Data Analysis Basics)** (`Pandas/`)
+### 8. **Pandas (Data Analysis)** (`Pandas/`)
 - Data manipulation and analysis basics (`about.txt`, `problem.txt`, `data.txt`)
 - DataFrame creation and overview (`topic.py`)
 - Data summary and statistics (`describe.py`)
@@ -108,7 +108,18 @@ This repository contains Python learning exercises and examples covering fundame
 - Adding data or columns (`adding.py`)
 - Save/export practice (`save.py`)
 - Practice scripts and examples (`app.py`, `problemexmple.py`)
-- Handling missing data (`Handling missing Data/` - `missing.txt`, `missing.py`)
+
+#### Handling Missing Data (`Pandas/Handling missing Data/`)
+- Identifying missing values (NaN, None)
+- **Filling with mean** (`handle2.py`) - replacing missing values with column mean
+- **Forward/Backward fill** (`missing.py`) - propagating values forward or backward
+- **Interpolation methods** (`inte.py`) - linear, polynomial, nearest neighbor interpolation
+- Missing data strategies and documentation (`missing.txt`)
+
+#### Sorting & Aggregation (`Pandas/Sorting & Aggregation/`)
+- **GroupBy operations** (`groupby.py`) - grouping data and aggregating
+- **Sorting and sorting operations** (`sorting.py`)
+- **Summary statistics** (`sumarrySort.py`)
 
 ## Learning Progress
 
@@ -120,7 +131,7 @@ This repository contains Python learning exercises and examples covering fundame
 ✅ Object-Oriented Programming (classes, objects, methods, inheritance)  
 ✅ Exception handling and custom exceptions  
 ✅ File handling and I/O operations  
-🟡 Pandas basics and data analysis (active focus)  
+✅ Pandas data analysis and manipulation  
 ✅ **Python Course Complete!**
 
 ## Notes

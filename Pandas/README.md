@@ -1,6 +1,6 @@
 # Pandas Learning Folder
 
-This folder contains beginner-friendly Pandas practice files focused on DataFrame basics, selecting data, filtering rows, saving output, and handling missing data.
+This folder contains beginner to intermediate Pandas practice files covering DataFrame basics, data selection, filtering, handling missing data, grouping & aggregation, and data export.
 
 ## What You Learn Here
 
@@ -11,6 +11,9 @@ This folder contains beginner-friendly Pandas practice files focused on DataFram
 - How to combine multiple conditions
 - How to save Pandas output to files
 - How to think about missing data in a dataset
+- **Handling missing data**: filling with mean, forward/backward fill, interpolation
+- **GroupBy and aggregation**: grouping data and calculating statistics
+- **Sorting and organizing data**: organizing by column values
 
 ## Prerequisites
 
@@ -25,10 +28,10 @@ pip install pandas
 
 ## Files in This Folder
 
+### Core DataFrame Operations
 - `about.txt`: Notes about Pandas basics and data analysis concepts
 - `problem.txt`: Practice notes about columns, rows, dtypes, and missing data
 - `data.txt`: Data-related notes and examples
-- `app.py`: Main practice script for DataFrame operations
 - `topic.py`: Example showing DataFrame creation, shape, and columns
 - `describe.py`: Practice with `describe()` and summary statistics
 - `rows.py`: Row selection and filtering practice
@@ -36,10 +39,33 @@ pip install pandas
 - `removColum.py`: Example for removing a column from a DataFrame
 - `selColumExample.py`: Example for selecting columns
 - `save.py`: Saving DataFrame output to files
+- `app.py`: Main practice script for DataFrame operations
 - `problemexmple.py`: Problem-based example script
-- `Handling missing Data/`: Notes and practice files for missing-value handling
-  - `missing.txt`: Notes about handling missing data
-  - `missing.py`: Practice script for missing-data techniques
+
+### Handling Missing Data (`Handling missing Data/`)
+Advanced techniques for dealing with missing values (NaN, None):
+- `missing.txt`: Notes and strategies for handling missing data
+- `missing.py`: Forward/Backward fill techniques
+- `handle2.py`: **Filling missing values with column mean** - replacing NaN with average values
+- `inte.py`: **Interpolation methods** - linear, polynomial, nearest neighbor interpolation
+
+**Key Concepts:**
+- `fillna()` - Fill missing values with specific values or methods
+- `interpolate()` - Estimate missing values based on surrounding data
+- `select_dtypes()` - Select numeric columns only
+- Different interpolation methods: `linear`, `polynomial`, `nearest`
+
+### Sorting & Aggregation (`Sorting & Aggregation/`)
+Grouping data and performing aggregate calculations:
+- `groupby.py`: **GroupBy operations** - grouping data by columns and aggregating (`sum()`, `mean()`, `count()`, etc.)
+- `sorting.py`: Sorting operations (ascending/descending)
+- `sumarrySort.py`: Summary statistics and sorting combinations
+
+**Key Concepts:**
+- `groupby()` - Group rows by column values
+- `.sum()`, `.mean()`, `.max()`, `.min()`, `.count()` - Aggregate functions
+- `.agg()` - Apply multiple aggregations at once
+- `sort_values()` - Sort by columns
 
 ## Generated Output Files
 
@@ -80,6 +106,7 @@ print(df.info())
 From this Pandas folder:
 
 ```bash
+# Core DataFrame Operations
 python topic.py
 python app.py
 python describe.py
@@ -87,8 +114,20 @@ python rows.py
 python save.py
 python removColum.py
 python selColumExample.py
+
+# Handling Missing Data
+python Handling\ missing\ Data\handle2.py    # Fill with mean
+python Handling\ missing\ Data\inte.py       # Interpolation
+
+# Sorting & Aggregation
+python Sorting\ \&\ Aggregation\groupby.py   # GroupBy operations
+python Sorting\ \&\ Aggregation\sorting.py   # Sorting examples
 ```
 
 ## Goal of This Folder
 
-Build a strong foundation in Pandas so you can inspect, clean, filter, and export datasets with confidence.
+Build a strong foundation in Pandas data analysis so you can:
+- Inspect and explore datasets with confidence
+- Clean data and handle missing values effectively
+- Group and aggregate data to extract insights
+- Filter, transform, and export datasets for further analysis
